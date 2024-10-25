@@ -36,6 +36,25 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+    },
+    "EventBookingAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "AngularFrontend": {
+      "commandName": "Executable",
+      "executablePath": "npm",
+      "commandLineArgs": "start",
+      "workingDirectory": "event-booking-frontend",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:4200",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
     }
   }
 }

@@ -3,7 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBookingAPI", "EventBookingAPI\EventBookingAPI.csproj", "{449225F2-7325-412C-8F2A-F714A2F1A401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBookingAPI", "EventBookingAPI\EventBookingAPI.csproj", "{449225F2-7325-412C-8F2A-F714A2F1A401}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "event-booking-frontend", "event-booking-frontend\", "{1C17F321-C93A-4E11-A4A3-F1BEDCE341BE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51878"
+		Debug.AspNetCompiler.PhysicalPath = "event-booking-frontend\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51878\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51878"
+		Release.AspNetCompiler.PhysicalPath = "event-booking-frontend\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51878\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51878"
+		SlnRelativePath = "event-booking-frontend\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +36,10 @@ Global
 		{449225F2-7325-412C-8F2A-F714A2F1A401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449225F2-7325-412C-8F2A-F714A2F1A401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449225F2-7325-412C-8F2A-F714A2F1A401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C17F321-C93A-4E11-A4A3-F1BEDCE341BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C17F321-C93A-4E11-A4A3-F1BEDCE341BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C17F321-C93A-4E11-A4A3-F1BEDCE341BE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C17F321-C93A-4E11-A4A3-F1BEDCE341BE}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
